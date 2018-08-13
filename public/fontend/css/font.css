@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.navbar-brand{
+color: white !important;
+font-family: 'Quicksand', sans-serif !important;
+font-size: 27px !important;
+}
+.nav-link{
+    color: white !important;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif !important;
+
+}
+.modal-backdrop{
+    z-index:0 !important;
+}
+
+.navbar-wrapper {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 1 !important;
+}
+.navbar-laravel{background-color:rgba(24,42,45,0) !important;}
+
+footer{
+    background-color: #151d2a;
+    color: white;
+}
+
+.categorias{
+    height: 60px;
+    width: auto;
+    background-color: #0c1821;
+    -webkit-box-shadow: 3px 23px 15px -16px rgba(224,224,224,1);
+    -moz-box-shadow: 3px 23px 15px -16px rgba(224,224,224,1);
+    box-shadow: 3px 23px 15px -16px rgba(224,224,224,1);
+}
+.list-cat{
+    list-style: none;
+    width: 96%;
+    float: left;
+
+}
+
+.list-cat li{
+    float: left;
+    padding-left: 5px;
+}
+.menu {
+    width: 60px;
+    float: left;
+}
